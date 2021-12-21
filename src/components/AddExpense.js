@@ -28,7 +28,7 @@ export default function AddExpense() {
                 e.preventDefault()
                 setExpense( ...expense, expense.credit = true)
             }} >Is this a Credit?</button>
-            <button type='submit' onClick={} >Submit</button>
+            <button type='submit' onClick={onSubmit} >Submit</button>
         </div>
     )
 }
